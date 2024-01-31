@@ -1,0 +1,133 @@
+
+
+.logo-header {
+
+  height: 50px;
+  width: 50px;
+  padding: 20px;
+}
+
+.logo {
+  background-color: #f1c652!important;
+}
+.container_header {
+  background-color:#8eb9d0;
+  color: white;
+  padding-left: 10px;
+  width: 100%;
+  display: flex;
+  height:auto;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.header_actions > Button {
+  margin:5px;
+  align-self: center;
+  
+  
+}
+
+.header_actions{
+  
+  justify-content: space-between;
+  
+  display: flex;
+  
+}
+
+ 
+.loginform{
+  border: 1px solid black ;
+  width: 20%;
+  margin-left: 500px;
+  margin-top:  70px;
+  
+ 
+  
+}
+/* .dd-margin {
+margin-left: 1000px;
+color: white;
+} */
+.userprofile{
+  
+  width: auto;
+  background-color: #f1c652!important;
+  text-align: right;
+  height:50px;
+}
+.userprofile-Dropdown {
+  
+  float:right;
+}
+.positionFixed {
+  position: fixed;
+  /* margin-top: -52px; */
+}
+.data_table{
+  height:400px;
+  overflow-y: auto;
+  width: 800px;
+  overflow-x: auto;
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the shadow values as needed */
+  border-radius: 8px; /* Optional: Add border-radius for a rounded appearance */
+  border-color: #8eb9d0;
+}
+.flex-container {
+  display: flex;
+  justify-content: center; /* Distribute items along the main axis with space between them */
+  align-items: center; /* Center items along the cross axis */
+  /* Set a fixed height for the container */
+  margin-left: 215px;
+  width:calc(100% - 215px);
+  right:0;
+  
+}
+.survey-dashboard-dd {
+margin-top: 50px;
+
+}
+.survey-dashboard-dd > Button {
+  margin-left: 20px;
+}
+.sidenav {
+  margin-top:50px;
+  height: calc(100% - 50px);
+  width: 215px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: block;
+}
+.adduserinput > input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
