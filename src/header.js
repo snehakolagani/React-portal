@@ -124,16 +124,16 @@ const Header = (props)=> {
     <div>
     {showFilter && (<Select
       
-      defaultValue=""
-      onChange={handleFilterClick}
+     
+     
       style={{
         width: 200,
       }}
       
       options={[
         {
-          value:" filters.key",
-          label: "filters.title",
+          value: filters.key,
+          label: filters.title,
         },
        
       ]}
